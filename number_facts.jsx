@@ -31,20 +31,22 @@ class NumberFacts extends React.Component {
 
   render() {
     return (
-      <div>
-        <form onSubmit={ this.handleSubmit }>
+      <div className="main">
+        <form className="form" onSubmit={ this.handleSubmit }>
           <input
             type="text"
             value={ this.state.num }
             onChange={ this.handleChange }
+            className="text-box"
             />
           <input
             type="submit"
             value="Get Fact"
+            className="submit-button"
             />
         </form>
-        <div>
-          { this.state.fact }
+        <div className="display-fact">
+          <h3 className="fact-text">{ this.state.fact }</h3>
         </div>
       </div>
     );

@@ -1,0 +1,74 @@
+body, html {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Metamorphous', sans-serif;
+  background: url(https://media.giphy.com/media/V2jIZU9hktwJy/giphy.gif);
+}
+
+#root {
+  margin: 0 auto;
+  padding: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  margin: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  background-color: rgba(181, 34, 228, 0.68);
+  border-radius: 7px;
+  width: 300px;
+  border: 6px solid #e822f5;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.form {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  height: 100px;
+  width: 100%;
+}
+
+.text-box {
+  border-radius: 3px;
+  border: 1px solid #dee65c;
+  margin: 5px;
+  height: 30px;
+  width: 90px;
+  padding: 5px;
+  font-family: inherit;
+  font-size: 18px;
+  text-align: center;
+}
+
+.submit-button {
+  border-radius: 5px;
+  border: 2px solid #e4a6e8;
+  background-color: #f965f4;
+  width: 100px;
+  padding: 7px;
+  font-size: 18px;
+  margin: 5px;
+  font-family: inherit;
+}
+
+.display-fact {
+  display: flex;
+  justify-content: center;
+}
+
+.fact-text {
+  text-align: center;
+  color: #670955;
+}
